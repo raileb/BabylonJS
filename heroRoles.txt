@@ -1,0 +1,2718 @@
+{
+  "data": {
+    "constants": {
+      "heroes": [
+        {
+          "id": 1,
+          "displayName": "Anti-Mage",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "displayName": "Axe",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "displayName": "Bane",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 3
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "displayName": "Bloodseeker",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "displayName": "Crystal Maiden",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "displayName": "Drow Ranger",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "displayName": "Earthshaker",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "displayName": "Juggernaut",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "displayName": "Mirana",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "displayName": "Morphling",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "displayName": "Shadow Fiend",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "displayName": "Phantom Lancer",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "displayName": "Puck",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "displayName": "Pudge",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "displayName": "Razor",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "displayName": "Sand King",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "displayName": "Storm Spirit",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "displayName": "Sven",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "displayName": "Tiny",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "displayName": "Vengeful Spirit",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "displayName": "Windranger",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "displayName": "Zeus",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "displayName": "Kunkka",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "displayName": "Lina",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "displayName": "Lion",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 3
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "displayName": "Shadow Shaman",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 3
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "displayName": "Slardar",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "displayName": "Tidehunter",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "displayName": "Witch Doctor",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "displayName": "Lich",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "displayName": "Riki",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "displayName": "Enigma",
+          "roles": [
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 3
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "displayName": "Tinker",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "displayName": "Sniper",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "displayName": "Necrophos",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "displayName": "Warlock",
+          "roles": [
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "displayName": "Beastmaster",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "displayName": "Queen of Pain",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "displayName": "Venomancer",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "displayName": "Faceless Void",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "displayName": "Wraith King",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "displayName": "Death Prophet",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "displayName": "Phantom Assassin",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "displayName": "Pugna",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "displayName": "Templar Assassin",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "displayName": "Viper",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "displayName": "Luna",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "displayName": "Dragon Knight",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "displayName": "Dazzle",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "displayName": "Clockwerk",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "displayName": "Leshrac",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "displayName": "Nature's Prophet",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 3
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "displayName": "Lifestealer",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "displayName": "Dark Seer",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "displayName": "Clinkz",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "displayName": "Omniknight",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "displayName": "Enchantress",
+          "roles": [
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 3
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "displayName": "Huskar",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "displayName": "Night Stalker",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "displayName": "Broodmother",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "displayName": "Bounty Hunter",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "displayName": "Weaver",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "displayName": "Jakiro",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "displayName": "Batrider",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "displayName": "Chen",
+          "roles": [
+            {
+              "roleId": "JUNGLER",
+              "level": 3
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "displayName": "Spectre",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "displayName": "Ancient Apparition",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "displayName": "Doom",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "displayName": "Ursa",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "displayName": "Spirit Breaker",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "displayName": "Gyrocopter",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "displayName": "Alchemist",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "displayName": "Invoker",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "displayName": "Silencer",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "displayName": "Outworld Destroyer",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "displayName": "Lycan",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "displayName": "Brewmaster",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "displayName": "Shadow Demon",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "displayName": "Lone Druid",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "displayName": "Chaos Knight",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "displayName": "Meepo",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "displayName": "Treant Protector",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "displayName": "Ogre Magi",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 85,
+          "displayName": "Undying",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "displayName": "Rubick",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 87,
+          "displayName": "Disruptor",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 88,
+          "displayName": "Nyx Assassin",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "displayName": "Naga Siren",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 90,
+          "displayName": "Keeper of the Light",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "JUNGLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 91,
+          "displayName": "Io",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "displayName": "Visage",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "displayName": "Slark",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 94,
+          "displayName": "Medusa",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "displayName": "Troll Warlord",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "displayName": "Centaur Warrunner",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 97,
+          "displayName": "Magnus",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "displayName": "Timbersaw",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 99,
+          "displayName": "Bristleback",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "displayName": "Tusk",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 101,
+          "displayName": "Skywrath Mage",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "displayName": "Abaddon",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "displayName": "Elder Titan",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "displayName": "Legion Commander",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "displayName": "Techies",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "displayName": "Ember Spirit",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "displayName": "Earth Spirit",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "displayName": "Underlord",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "displayName": "Terrorblade",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "PUSHER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 110,
+          "displayName": "Phoenix",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 111,
+          "displayName": "Oracle",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 112,
+          "displayName": "Winter Wyvern",
+          "roles": [
+            {
+              "roleId": "NUKER",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "id": 113,
+          "displayName": "Arc Warden",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 3
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 114,
+          "displayName": "Monkey King",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 119,
+          "displayName": "Dark Willow",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 120,
+          "displayName": "Pangolier",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 1
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 121,
+          "displayName": "Grimstroke",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 123,
+          "displayName": "Hoodwink",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 2
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 126,
+          "displayName": "Void Spirit",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 2
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 3
+            },
+            {
+              "roleId": "NUKER",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 128,
+          "displayName": "Snapfire",
+          "roles": [
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "NUKER",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 129,
+          "displayName": "Mars",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 135,
+          "displayName": "Dawnbreaker",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "id": 136,
+          "displayName": "Marci",
+          "roles": [
+            {
+              "roleId": "CARRY",
+              "level": 1
+            },
+            {
+              "roleId": "ESCAPE",
+              "level": 1
+            },
+            {
+              "roleId": "INITIATOR",
+              "level": 2
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 1
+            },
+            {
+              "roleId": "SUPPORT",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": 137,
+          "displayName": "Primal Beast",
+          "roles": [
+            {
+              "roleId": "INITIATOR",
+              "level": 3
+            },
+            {
+              "roleId": "DURABLE",
+              "level": 3
+            },
+            {
+              "roleId": "DISABLER",
+              "level": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
